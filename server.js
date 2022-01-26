@@ -20,9 +20,9 @@ if(vex.content.includes("discord.gg")){
 
 if(vex.channel.type === "dm"){ 
 if(vex.author.id===client.user.id) return; 
-vex.author.send("https://discord.gg/BmzN8ZvgQN")
+vex.author.send("https://discord.gg/SmEWRxsVxd")
 let s2 = vex .content = vex.content.replace(/@(everyone)/, "🥰").replace(/@(here)/, "🥰");
-let hama1 = client.channels.cache.get("755228220911255552")//id bashe reklam
+let hama1 = client.channels.cache.get("934845542901637160")//id bashe reklam
 hama1.send(`
 ناردرا لە لایەن
 <@${vex.author.id}> ` +`
@@ -40,7 +40,7 @@ ${s2}
   
 })
 
-const channelid = "848301704100577290"//id channele vc
+const channelid = "934845541903396894"//id channele vc
 client.on("ready", () => {
     const channel = client.channels.cache.get(channelid);
     if (!channel) return console.error("The channel does not exist!");
